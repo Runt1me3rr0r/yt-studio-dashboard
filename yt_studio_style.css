@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+/* First column */
+
+.container {
+  height: 580px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f4f4f4;
+}
+
+.column {
+  width: 396px;
+  margin: 20px;
+}
+
+.box {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 1px 1px rgb(200, 200, 200);
+}
+
+.boxTitle {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.thumbnailContainer {
+  height: 198px;
+  overflow: hidden;
+  border-radius: 3px;
+  margin-bottom: 18px;
+}
+
+.thumbnail {
+  width: 100%;
+  margin-top: -34px;
+}
+
+.performance {
+  margin-bottom: 10px;
+}
+
+.statContainer {
+  margin-bottom: 16px;
+}
+
+.stat {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0px;
+}
+
+.analytics {
+  color: #1c5fda;
+}
+
+.comment {
+  margin-top: 15px;
+}
+
+/* Second column */
+.secondColumn {
+  width: 396px;
+  margin: 20px;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.youtubeImg {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.creator {
+  margin-bottom: 12px;
+}
+
+.muteText {
+  opacity: 0.5;
+}
+
+.fsize {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.subColumn {
+  margin-top: 30px;
+}
+
+/* Third column */
+
+.subscriberCount {
+  font-size: 34px;
+}
+
+.highlight {
+  color: green;
+}
+
+.divider {
+  height: 1px;
+  background-color: lightgrey;
+  margin: 20px 0;
+}
+
+.summaryContainer {
+  margin-bottom: 10px;
+}
+
+.summary {
+  margin-bottom: 5px;
+}
+
+.date {
+  margin-bottom: 10px;
+} /* not included in tutorial */
+
+.summaryStat {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0; /* 10px in tutorial */
+}
+
+.playlist {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.overflowEllipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Icon customise */
+
+.fa-fsize {
+  font-size: 18px;
+  margin-left: 8px;
+}
+
+.fa-chevron-left {
+  margin-right: 25px;
+}
+
+/* second row */
+.subTitle {
+  margin-bottom: 20px;
+}
+
+.commentContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profileContainer {
+  display: flex;
+}
+
+.profileImg {
+  width: 30px;
+  height: 30px;
+  border-radius: 70%;
+  margin-right: 15px;
+}
+
+.reply {
+  margin-left: -240px;
+}
+
+.commentThumbnail {
+  width: 70px;
+  height: 38px;
+  object-fit: cover;
+  margin-bottom: -10px;
+}
+
+.secondBox {
+  margin-top: 80px;
+}
+
+.creatorTitle {
+  margin-bottom: 15px;
+}
+
+.thirdBox {
+  margin-top: -40px;
+}
+
+.recentSubscriberContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.subscriberImg {
+  width: 45px;
+  height: 45px;
+  border-radius: 70%;
+  margin-top: 10px;
+  margin-right: 15px;
+}
