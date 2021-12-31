@@ -168,12 +168,13 @@ body {
 
 .commentContainer {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 }
 
 .profileContainer {
   display: flex;
+  justify-content: center;
 }
 
 .profileImg {
@@ -193,6 +194,8 @@ body {
   object-fit: cover;
   margin-bottom: -10px;
 }
+
+/*Work properly in Brave Browser */
 
 .secondBox {
   margin-top: 80px;
